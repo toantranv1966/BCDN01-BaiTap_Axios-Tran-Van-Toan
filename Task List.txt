@@ -1,0 +1,47 @@
+Bài tập Axios
+
+YÊU CẦU
+
+I. Tạo API "quản lý người dùng" trên MockAPI : 
+    + LOGIN MockAPI tạo API QLND
+
+II. Sử dụng Axios để xây dựng các chức năng cho admin (hiện danh sách, thêm, xóa, cập nhật
+người dùng)
+1, Tạo Class UserServices.js : Class kết nối API
+    + Lấy danh sách User
+    + Thêm User
+    + Lấy User
+    + Cập nhật User
+    + Xóa User
+
+2, Tạo Class User.js : Class đối tượng ngời dùng
+
+3, Tạo main.js : Chương trình chính chứa các hàm & gọi các lớp đối tượng của dự án
+    + layDSUSER()
+    + hienThiTable()
+    + themUser()
+    + layChitiet()
+    + capNhatUser()
+    + xoaUser()
+    + timKiemtheoTK()
+    + clearThongbao()
+
+III. Validation:
+    + Kiểm tra Validaton : ( Cả thêm & cập nhật)
+• Tài Khoản (username): không được để trống, không được trùng (Một ngày : 09/09/2021)
+• Họ tên: không được để trống, không chứa số và ký tự đặc biệt
+• Mật khẩu: không được để trống, dúng format (có ít nhất 1 ký tự hoa, 1 ký tự đặc biệt, 1 ký tự
+số, độ dài 6-8)
+• Email: không được để trống, đúng format email
+• Hinh anh: không được để trống
+• Loại người dùng: phải chọn loại
+• Loại ngôn ngữ: phải chọn loại
+• Mô tả: không được để trống, không vượt quá 60 ký tự
+
+IV. Tìm kiếm theo tài khoản người dùng:
+    + Tìm kiếm theo tài khoản người dùng
+    + Xóa thông báo lỗi khi & Reset Form Thêm / Cập nhật người dùng
+
+V/ KIỂM TRA :
+    + refactor code : Sắp xếp, format, xóa console.
+    + Kiểm tra các chức năng trên.
